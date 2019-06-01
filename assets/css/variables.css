@@ -1,26 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Barlow+Semi+Condensed|Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
 
 :root {
-  /**
-   * Colour palette
-   */
-  --c-primary: hsl(190, 100%, 40%);
+    /*--------COLORS---------*/
+    --color-1: hsla(24, 57%, 48%, 1);
+    --color-2: hsla(24, 57%, 48%, 0.145);
+    --color-3: hsl(240, 8%, 95%);
+    --color-4: hsl(0, 0%, 5%);
 
-  /**
-   * Layout
-   */
-  --l-gutter: 1rem;
+    /*--------FONT---------*/
+    --font-1: 'Barlow Semi Condensed', sans-serif;
+    --font-2: 'Dancing Script';
+    --font-3: 'Montserrat', sans-serif;
+    --font-4: 'Tangerine', cursive;
 
-  /**
-   * Typography
-   */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
-
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+    /*--------GRID---------*/
+    --unit: .5rem;
 }
-
-
